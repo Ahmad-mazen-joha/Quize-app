@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.parent{
+    width: 100%;
+    height: 890px;
+    background-color: #EEE;
+    
+}
+.parent.hideFlow{
+    overflow-y: hidden;
+}
+.container{
+    width: 1170px;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.container.first{
+    z-index: 5;
+    position: relative;
+    transition: 1s;
+}
+.container.first.up{
+    display: none;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px){
+.container {
+    width: 100%;
+ }
+}
+@media (min-width:768px) and (max-width: 992px){
+    .container {
+        width: 750px;
+    }
+ }
+@media(min-width:992px) and (max-width:1200px){
+        .container{
+            width: 970px;
+        }
+}
+header h2{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    padding: 50px 0;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #2196F3;            
+}
+section{
+    flex-direction: column;
+}
+section p{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 50px 0;
+    width: 100%;
+    color: #000000;
+}
+
+section button{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid #2196F3;
+}
+section button:hover{
+    color: #2196F3;
+    background-color: white;
+    border: 1px solid #2196F3;
+    outline: none;
+}
+footer h2{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #2196F3;          
+}
+footer div{
+    
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+}
+footer > div > span{
+    font-family: sans-serif;
+    visibility: hidden;
+    color: white;
+    opacity: 0;
+    text-transform: uppercase;
+ 
+}
+footer div button{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+button span.left{
+ transform: translateX(-19px);
+}
+button span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    z-index: 2;
+    position: absolute;
+   transform: translateX(19px);
+   transition: 0.3s;
+}
+footer div span.on{
+    color: #2196F3;
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
+}
+/*Qustion area*/
+.container.Quize{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 1s;
+    transform: translate(0,700px);
+}
+.container.Quize.up{
+    transform: translateY(0px);
+  
+}
+.container.Quize.up.up-relod{
+    height: 100%;
+    transform:translate(-1500px,0px);
+    animation-name: left-to-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes left-to-right{
+    form{
+        transform:translate(-1500px,0px);
+    }to{
+        transform: translate(0px,0px);
+    }
+}
+.parent.up-relod{
+   height: 100%;
+}
+.Quize-header{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-color: #f6f6f6;
+    margin: 10px auto;
+}
+.Quize-header .category,.Quize-header .QustionNum{
+    flex: 1;
+    font-size: 30px;
+
+    text-transform: capitalize;
+}
+.Quize-header .category{
+        text-align: left;
+}
+.Quize-header .QustionNum{
+    text-align: right;
+}
+
+/**/
+.Quize-area{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.Question{
+    font-size: 40px;
+    text-transform: capitalize;
+    padding: 20px;
+    background-color: #f6f6f6;
+    margin: 0px auto;
+    font-weight: 900;
+}
+
+.answers{
+    font-size: 30px;
+    text-transform: capitalize;
+ 
+    margin: 0px auto;
+    width: 90%;
+    background-color: #eee;
+}
+.answers button{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    background-color: #2196F3;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+  
+}
+.answers button:focus{
+    outline: none;
+}
+.answers button:hover{
+    color: #2196F3;
+    background-color: white;
+    border: 1px solid #2196F3;
+    outline: none;
+}
+form > div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+form > div input{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+form > div:not(:last-child){
+    border-bottom: 2px solid #f6f6f6;
+}
+/**/
+.Quiz-footer{
+    width: 100%;
+    display: flex;
+    padding: 0px 40px;
+}
+.Quiz-footer .bullet-cont{
+    flex: 1;
+    padding: 20px;
+}
+.Quiz-footer .Timer{
+    flex:1;
+    text-align: right;
+    padding: 20px;
+    font-size: 20px;
+}
+.Quiz-footer .bullet-cont span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    border: 1px solid #2196F3;
+    margin-right: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.Quiz-footer .bullet-cont span.clicked{
+    background-color: #2196F3;
+}
+.Quiz-footer .bullet-cont span.clicked.on{
+    border-radius: 15px;
+    width: 50px;
+}
+.cont{
+    width: 100%;
+}
+.answers div label.noClick , .answers div input.noClick{
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.answers form div.noClick{
+    cursor: not-allowed !important;
+}
+.answers div.trueAnswer {
+    background-color: #bee194 !important;
+}
+.answers div.falseAnswer{
+    background-color: #ed817a;
+}
+@media (max-width:992px){
+    .Quize-header .category, .Quize-header .QustionNum {
+        font-size: 20px;
+    }
+    .Question {
+        font-size: 30px;
+    }
+    .answers {
+        font-size: 25px;
+    }
+    .Quiz-footer .bullet-cont span {
+        width: 15px;
+        height: 15px;
+    }
+    .Quiz-footer .bullet-cont span.clicked.on{
+        width: 30px;
+    }
+    header h2 {
+        font-size: 40px;
+    }
+    section p {
+        font-size: 20px;
+    }
+    }
