@@ -347,9 +347,9 @@ let ExtractData = url => {
 let QuizParent = document.querySelector(".parent");
 startButton.addEventListener("click", () => {
   if (circle.classList.contains("left")) {
-    ExtractData("/JSON/arabic.json");
+    ExtractData("JSON/arabic.json");
     submitButton.innerHTML = "سجل جوابك";
   } else {
-    ExtractData("/JSON/english.json");
+    ExtractData("JSON/english.json");
   }
 });
