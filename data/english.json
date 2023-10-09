@@ -1,0 +1,310 @@
+{"world facts":[
+    {
+      "question": "What is the world's largest ocean?",
+      "options":{
+        "answer1": "Atlantic Ocean",
+        "answer2": "Pacific Ocean",
+        "answer3": "Indian Ocean",
+        "answer4": "Arctic Ocean"
+      },
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "Which country has the longest coastline?",
+      "options":{
+        "answer1": "Canada",
+        "answer2": "Russia",
+        "answer3": "Indonesia",
+        "answer4": "China"}
+      ,
+      "answer": "Russia"
+    },
+    {
+      "question": "Which country has the highest population density?",
+      "options":{
+        "answer1": "Singapore",
+        "answer2": "Monaco",
+        "answer3": "Vatican City",
+        "answer4": "Bangladesh"}
+      ,
+      "answer": "Singapore"
+    },
+    {
+      "question": "What is the most spoken language?",
+      "options":{
+        "answer1": "Mandarin Chinese",
+        "answer2": "Spanish",
+        "answer3": "English",
+        "answer4": "Hindi"}
+      ,
+      "answer": "Mandarin Chinese"
+    },
+    {
+      "question": "Which country has the highest average life expectancy?",
+      "options":{
+        "answer1": "Switzerland",
+        "answer2": "Japan",
+        "answer3": "Iceland",
+        "answer4": "Hong Kong"}
+      ,
+      "answer": "Japan"
+    },
+    {
+      "question": "What is the largest desert?",
+      "options":{
+        "answer1": "Sahara Desert",
+        "answer2": "Arabian Desert",
+        "answer3": "Gobi Desert",
+        "answer4": "Kalahari Desert"}
+      ,
+      "answer": "Sahara Desert"
+    },
+    {
+      "question": "What is the highest mountain?",
+      "options":{
+        "answer1": "Lhotse",
+        "answer2": "K2",
+        "answer3": "Kangchenjunga",
+        "answer4": "Mount Everest"}
+      ,
+      "answer": "Mount Everest"
+    },
+    {
+      "question": "What is the longest river?",
+      "options":{
+        "answer1": "Nile River in Egypt",
+        "answer2": "Amazon River in Brazile",
+        "answer3": "Yangtze River",
+        "answer4": "Mississippi River"}
+      ,
+      "answer": "Nile River in Egypt"
+    },
+    {
+      "question": "Which country has the most active volcanoes?",
+      "options":{
+        "answer1": "Indonesia",
+        "answer2": "Japan",
+        "answer3": "Philippines",
+        "answer4": "New Zealand"}
+      ,
+      "answer": "Indonesia"
+    },
+    {
+      "question": "Which country has the most Nobel Prize winners?",
+      "options":{
+        "answer1": "United States",
+        "answer2": "United Kingdom",
+        "answer3": "Germany",
+        "answer4": "France"}
+      ,
+      "answer": "United States"
+    }
+  ],
+  "animal world facts":[
+    {
+      "question": "What is the largest animal in the world?",
+      "options": {
+        "answer1": "Blue whale",
+        "answer2": "African elephant",
+        "answer3": "Polar bear",
+        "answer4": "Giraffe"
+      },
+      "answer": "Blue whale"
+    },
+    {
+      "question": "What is the fastest animal in the world?",
+      "options": {
+        "answer1": "Cheetah",
+        "answer2": "Lion",
+        "answer3": "Tiger",
+        "answer4": "Peregrine falcon"
+      },
+      "answer": "Cheetah"
+    },
+    {
+      "question": "What is the smartest animal in the world?",
+      "options": {
+        "answer1": "Chimpanzee",
+        "answer2": "Dolphin",
+        "answer3": "Octopus",
+        "answer4": "Elephant"
+      },
+      "answer": "Chimpanzee"
+    },
+    {
+      "question": "What is the only animal that can fly?",
+      "options": {
+        "answer1": "Bat",
+        "answer2": "Hummingbird",
+        "answer3": "Ostrich",
+        "answer4": "Penguin"
+      },
+      "answer": "Bat"
+    },
+    {
+      "question": "What animal lives longer than all other animals?",
+      "options": {
+        "answer1": "Bowhead whale",
+        "answer2": "Green sea turtle",
+        "answer3": "White-crested cockatoo",
+        "answer4": "Crocodile"
+      },
+      "answer": "Bowhead whale"
+    },
+    {
+      "question": "What is the most dangerous animal in the world?",
+      "options": {
+        "answer1": "Mosquito",
+        "answer2": "Venomous snake",
+        "answer3": "Scorpion",
+        "answer4": "Rabid dog"
+      },
+      "answer": "Mosquito"
+    },
+    {
+      "question": "What is the most common animal in the world?",
+      "options": {
+        "answer1": "Ant",
+        "answer2": "Goldfish",
+        "answer3": "Chicken",
+        "answer4": "Cow"
+      },
+      "answer": "Ant"
+    },
+    {
+      "question": "What is the only animal that can change its color?",
+      "options": {
+        "answer1": "Chameleon",
+        "answer2": "Octopus",
+        "answer3": "Zebra",
+        "answer4": "Parrot"
+      },
+      "answer": "Chameleon"
+    },
+    {
+      "question": "What is the only animal that can sleep with its eyes open?",
+      "options": {
+        "answer1": "Dolphin",
+        "answer2": "Elephant",
+        "answer3": "Lion",
+        "answer4": "Horse"
+      },
+      "answer": "Dolphin"
+    },
+    {
+      "question": "What is the only animal that can regrow its limbs?",
+      "options": {
+        "answer1": "Lizard",
+        "answer2": "Goldfish",
+        "answer3": "Crab",
+        "answer4": "Worm"
+      },
+      "answer": "Crab"
+    }
+  ],
+  "Historical Facts":[
+   
+      {
+        "question": "What was the first country to adopt Christianity as its state religion?",
+        "options": {
+          "answer1": "Armenia",
+          "answer2": "Ethiopia",
+          "answer3": "Georgia",
+          "answer4": "Rome"
+        },
+        "answer": "Armenia"
+      },
+      {
+        "question": "Who was the first woman to win the Nobel Prize?",
+        "options": {
+          "answer1": "Marie Curie",
+          "answer2": "Bertha von Suttner",
+          "answer3": "Nellie Bly",
+          "answer4": "Clara Barton"
+        },
+        "answer": "Marie Curie"
+      },
+      {
+        "question": "What was the name of the first person to walk on the moon?",
+        "options": {
+          "answer1": "Neil Armstrong",
+          "answer2": "Buzz Aldrin",
+          "answer3": "Michael Collins",
+          "answer4": "Yuri Gagarin"
+        },
+        "answer": "Neil Armstrong"
+      },
+      {
+        "question": "What year was the Berlin Wall built?",
+        "options": {
+          "answer1": "1961",
+          "answer2": "1969",
+          "answer3": "1973",
+          "answer4": "1981"
+        },
+        "answer": "1961"
+      },
+      {
+        "question": "What was the name of the first person to fly solo across the Atlantic Ocean?",
+        "options": {
+          "answer1": "Charles Lindbergh",
+          "answer2": "Amelia Earhart",
+          "answer3": "Howard Hughes",
+          "answer4": "Wiley Post"
+        },
+        "answer": "Charles Lindbergh"
+      },
+      {
+        "question": "What year was the World Wide Web invented?",
+        "options": {
+          "answer1": "1989",
+          "answer2": "1990",
+          "answer3": "1991",
+          "answer4": "1992"
+        },
+        "answer": "1989"
+      },
+      {
+        "question": "What was the name of the first person to win the Olympic gold medal in four different sports?",
+        "options": {
+          "answer1": "Carl Lewis",
+          "answer2": "Michael Phelps",
+          "answer3": "Usain Bolt",
+          "answer4": "Jesse Owens"
+        },
+        "answer": "Jesse Owens"
+      },
+      {
+        "question": "What year was the first atomic bomb dropped?",
+        "options": {
+          "answer1": "1942",
+          "answer2": "1943",
+          "answer3": "1944",
+          "answer4": "1945"
+        },
+        "answer": "1945"
+      },
+      {
+        "question": "What was the name of the first woman to be elected president of a country?",
+        "options": {
+          "answer1": "Margaret Thatcher",
+          "answer2": "Indira Gandhi",
+          "answer3": "Golda Meir",
+          "answer4": "Isabel Martínez de Perón"
+        },
+        "answer": "Isabel Martínez de Perón"
+      },
+      {
+        "question": "What year did the Soviet Union collapse?",
+        "options": {
+          "answer1": "1989",
+          "answer2": "1990",
+          "answer3": "1991",
+          "answer4": "1992"
+        },
+        "answer": "1991"
+      }
+    ]
+  
+  
+}
